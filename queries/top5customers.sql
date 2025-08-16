@@ -1,6 +1,5 @@
 --- this query is used to find top 5 customers purchasing products with their customer_id , name , total_orders , recent purchase date 
-
-
+--- by removing the limit clause in the last line ; it results everyone 
 
 USE my_dataset ;
 SELECT c.customer_id , CONCAT(c.first_name ,'', c.last_name)  AS full_name , COUNT(o.order_id) AS total_orders
