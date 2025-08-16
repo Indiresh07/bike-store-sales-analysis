@@ -1,0 +1,7 @@
+--- this query used to find stores alphabetically
+
+USE my_dataset ;
+
+SELECT store_name , city 
+FROM stores 
+ORDER BY city ,store_name ;
