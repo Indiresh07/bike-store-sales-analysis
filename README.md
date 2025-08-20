@@ -73,4 +73,3 @@ By integrating **sales analytics** with **human-centric strategies**, Rick’s B
 
 ---
 
-## 📂 Repository Structure
